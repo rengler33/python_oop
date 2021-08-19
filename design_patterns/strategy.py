@@ -5,7 +5,9 @@ This means the algorithms share the same inputs and function signature, and prod
 similar output.
 
 Makes algorithms interchangeable, and leaves open for extension. Caller does not need to 
-have knowledge of the algorithms or how they're chosen.
+have knowledge of the algorithms or how they're chosen, but allows behavior to be adjusted
+at runtime thanks to the shared interface. The word *interchangeable* is a key difference
+from the Template pattern.
 
 This example uses a simplified idea of an income tax, using a different strategy to
 calculate an income tax in TX versus NY.
