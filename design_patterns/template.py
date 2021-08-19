@@ -39,7 +39,8 @@ class FileLoaderTemplate(ABC):
         print("-" * 20)
 
     def _ensure_file_exists(self):
-        """"""
+        """Example of concrete method every template will want"""
+        # pretend this is getting executed:
         # assert self._filepath.exists()
 
     @abstractmethod
